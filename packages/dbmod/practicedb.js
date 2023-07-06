@@ -2,7 +2,7 @@ import { MongoClient } from "mongodb";
 
 const uri = "mongodb://localhost:27017";
 
-const readOnePracticeDocument = async () => {
+export const readOnePracticeDocument = async () => {
   const client = new MongoClient(uri);
 
   const usersColl = client.db("practice").collection("users");
@@ -13,7 +13,7 @@ const readOnePracticeDocument = async () => {
   client.close();
 };
 
-const saveOnePracticeDocument = async () => {
+export const saveOnePracticeDocument = async () => {
   const client = new MongoClient(uri);
   const usersColl = client.db("practice").collection("users");
 
