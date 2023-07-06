@@ -11,7 +11,7 @@
   "license": "ISC",
   "workspaces": [
     "myapp",
-    "backend",
-    "practice"
+    "packages/backend",
+    "packages/practice"
   ]
 }
