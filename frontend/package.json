@@ -1,19 +1,13 @@
 {
-  "name": "monorepo",
+  "name": "frontend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "workspaces": [
-    "myapp",
-    "packages/backend",
-    "packages/practice",
-    "packages/dbmod",
-    "frontend"
-  ]
+  "license": "ISC"
 }
